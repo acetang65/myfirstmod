@@ -8,6 +8,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import tang.myfirstmod.MyFirstMod;
+import tang.myfirstmod.block.ModBlocks;
 
 public class ModItemGroups {
 
@@ -20,6 +21,7 @@ public class ModItemGroups {
             .title(Component.translatable("creativeTab.myfirstmod.test_tab"))
             .displayItems((params, output) -> {
                 output.accept(ModItems.test_item);
+                output.accept(ModBlocks.test_block);
             })
             .build();
 
