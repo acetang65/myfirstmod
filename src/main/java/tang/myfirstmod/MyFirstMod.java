@@ -6,6 +6,7 @@ import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import tang.myfirstmod.item.ModItemGroups;
 import tang.myfirstmod.item.ModItems;
 
 public class MyFirstMod implements ModInitializer {
@@ -21,6 +22,7 @@ public class MyFirstMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModItemGroups.registerModItemGroups();
 
 		LOGGER.info("Hello Fabric world!");
 	}
