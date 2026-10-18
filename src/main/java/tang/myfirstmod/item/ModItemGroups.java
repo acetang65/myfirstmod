@@ -17,11 +17,13 @@ public class ModItemGroups {
     );
 
     public static final CreativeModeTab TEST_TAB = FabricCreativeModeTab.builder()
-            .icon(() -> new ItemStack(ModItems.test_item))
+            .icon(() -> new ItemStack(ModBlocks.test_block))
             .title(Component.translatable("creativeTab.myfirstmod.test_tab"))
             .displayItems((params, output) -> {
                 output.accept(ModItems.test_item);
                 output.accept(ModBlocks.test_block);
+                output.accept(ModItems.test_item_ingot);
+                output.accept(ModBlocks.test_item_ore);
             })
             .build();
 

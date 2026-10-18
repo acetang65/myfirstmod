@@ -1,5 +1,7 @@
 {
   "creativeTab.myfirstmod.test_tab": "测试物品",
   "item.myfirstmod.test_item": "测试物品",
-  "block.myfirstmod.test_block": "测试方块"
+  "block.myfirstmod.test_block": "测试方块",
+  "item.myfirstmod.test_item_ingot": "测试物品锭",
+  "block.myfirstmod.test_item_ore": "测试物品矿石"
 }

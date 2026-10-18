@@ -13,6 +13,7 @@ import java.util.function.Function;
 public class ModItems {
 
     public static final Item test_item = registerItem("test_item", Item::new);
+    public static final Item test_item_ingot = registerItem("test_item_ingot", Item::new);
 
     private static Item registerItem(String name, Function<Item.Properties, Item> factory) {
         Identifier id = Identifier.fromNamespaceAndPath(MyFirstMod.MOD_ID, name);

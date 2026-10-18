@@ -18,6 +18,10 @@ public class ModBlocks {
     public static final Block test_block = register("test_block",
             Block::new,
             BlockBehaviour.Properties.of().strength(3.0f, 6.0f).sound(SoundType.STONE));
+    public static final Block test_item_ore = register("test_item_ore",
+            Block::new,
+            BlockBehaviour.Properties.of().strength(3.0f, 6.0f).sound(SoundType.STONE));
+
 
     /**
      * 注册方块，同时自动注册对应的方块物品（BlockItem）。
