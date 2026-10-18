@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "myfirstmod:test_item"
+  },
+  "result": {
+    "id": "myfirstmod:test_item_ingot",
+    "count": 1
+  }
+}
